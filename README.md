@@ -1,25 +1,6 @@
 [🇬🇧 English](README_en.md) | [🇩🇰 Denmark](README_da.md) | [🇵🇱 Poland](README_pl.md) | [🇪🇪 Estonia](README_et.md)
 
-<div>
-  <button onclick="switchLanguage('en')">🇬🇧 English</button>
-  <button onclick="switchLanguage('da')">🇩🇰 Denmark</button>
-  <button onclick="switchLanguage('pl')">🇵🇱 Poland</button>
-  <button onclick="switchLanguage('et')">🇪🇪 Estonia</button>
-</div>
 
-<script>
-  function switchLanguage(lang) {
-    if (lang === 'en') {
-      window.location.href = 'README_en.md';
-    } else if (lang === 'da') {
-      window.location.href = 'README_da.md';
-    } else if (lang === 'pl') {
-      window.location.href = 'README_pl.md';
-    } else if (lang === 'et') {
-      window.location.href = 'README_et.md';
-    }
-  }
-</script>
 
 <p align="center">
   <a aria-label="try my app Typeread" href="https://snack.expo.dev">try my app Typeread</a>
